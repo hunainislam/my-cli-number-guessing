@@ -11,6 +11,7 @@ import inquirer from "inquirer";
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 
 console.log("Welcome to number Guessing Game");
+console.log("You Choose Guessing Number 1 to 6");
 
 const answers = await inquirer.prompt([
     {
